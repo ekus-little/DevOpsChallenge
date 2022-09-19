@@ -30,4 +30,4 @@ You will find various issues from missing terraform resources to syntax issues. 
 You may find this command helpful to pull in the EKS config:
 `aws eks --region $(terraform output -raw region) update-kubeconfig --name $(terraform output -raw cluster_name)`
 
-If you receive a response body "Denied" then you are probably missing the access key.
+If you receive a response body "Denied" then you are probably missing the access key. 
